@@ -102,7 +102,7 @@ h1 {
 .earth {
   /* position: absolute; */
   width: 600px;
-  height: 550px;
+  height: auto;
   /* top: -4%;
   right: 110px; */
   animation: rotateEarth 70s linear infinite;
@@ -167,7 +167,7 @@ h1 {
   .earth {
     align-items: center;
     width: 450px;
-    height: 400px;
+    height: auto;
     animation: rotateEarth 70s linear infinite;
     /* margin: auto; */
   }
