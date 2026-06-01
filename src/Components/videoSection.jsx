@@ -1,8 +1,9 @@
-import "./videoSection.css";
+import "./VideoSection.css";
 import video from "../assets/Planet.mp4";
 
-export default function Astronomy() {
+function Astronomy() {
   return (
+    <>
     <div className="bodyWrapper">
 
 {/* The second section */}
@@ -23,5 +24,8 @@ export default function Astronomy() {
           </div>
         </section>
         </div>
+        </>
   );
 }
+
+export default Astronomy;

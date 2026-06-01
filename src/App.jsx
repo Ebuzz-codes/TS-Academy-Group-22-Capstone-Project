@@ -1,6 +1,6 @@
 import Header from "./Components/header";
 import HeroSection from "./Components/HeroSection";
-import VideoSection from "./Components/videoSection";
+import VideoSection from "./Components/VideoSection";
 import ImageSection from "./Components/imageSection";
 import TableSection from "./Components/tableSection";
 import FormSection from "./Components/formSection";
