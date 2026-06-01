@@ -21,8 +21,6 @@ function Hero() {
               <br />
               facts. from size and mass to gravity and density, this page <br />
               breaks down the solar system in clear,data and driven way. <br />
-              <br />
-              <br />
             </p>
 
             <div className="linkbtn">

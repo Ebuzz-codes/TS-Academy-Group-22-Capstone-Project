@@ -128,7 +128,7 @@ h1 {
     align-items: center;
     padding: 10px;
     height: 10vh;
-    background-color: #164baf;
+    /* background-color: #164baf; */
   }
   section {
     flex-direction: column-reverse;
@@ -156,14 +156,17 @@ h1 {
   }
   p {
     text-align: center;
+    line-height: 0.9;
+    font-size: 14px;
   }
   .linkbtn {
     display: flex;
     gap: 20px;
   }
   .earth {
-    width: 70%;
-    height: 65%;
-    margin: auto;
+    align-items: center;
+    width: 450px;
+    height: 400px;
+    /* margin: auto; */
   }
 }
