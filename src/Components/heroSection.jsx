@@ -18,9 +18,8 @@ function Hero() {
             </h1>
             <p className="hero_paragraph">
               understanding the planets not just by name, but by measurable
-              <br />
-              facts. from size and mass to gravity and density, this page <br />
-              breaks down the solar system in clear,data and driven way. <br />
+              facts. from size and mass to gravity and density, this page breaks
+              down the solar system in clear,data and driven way.
             </p>
 
             <div className="linkbtn">
