@@ -1,5 +1,5 @@
-import "../Components/videoSection.css";
-import video from "../assets/Planet.mp4";
+import "./Components/videoSection.css";
+import video from "./assets/Planet.mp4";
 
 export default function Astronomy() {
   return (
