@@ -1,14 +1,49 @@
-// Part 1: The Function (The "Factory")
-function heroSection() {
-  
-  // Part 2: The Return (What the component actually looks like)
+import "./HeroSection.css";
+import graphics from "../assets/graphics.png";
+import Image from "../assets/Image.png";
+
+function Hero() {
   return (
-    <footer>
-      <p>© 2024 My Capstone Team. All rights reserved.</p>
-    </footer>
+    <>
+      <header>
+        <nav>
+          <img src={graphics} alt="logo" width="120px" height="50px" />
+        </nav>
+
+        <section>
+          <div className="left">
+            <h1 className="hero_header">
+              Explore Our Solar <br />
+              System Through Data
+            </h1>
+            <p className="hero_paragraph">
+              understanding the planets not just by name, but by measurable
+              <br />
+              facts. from size and mass to gravity and density, this page <br />
+              breaks down the solar system in clear,data and driven way. <br />
+              <br />
+              <br />
+            </p>
+
+            <div className="linkbtn">
+              <a href="#" className="btn1">
+                {" "}
+                Explore the data
+              </a>
+              <a href="#form" id="btn2">
+                {" "}
+                Contact us
+              </a>
+            </div>
+          </div>
+
+          <div className="right">
+            <img src={Image} alt="earth" className="earth" />
+          </div>
+        </section>
+      </header>
+    </>
   );
 }
 
-// Part 3: The Export (The "Delivery Label")
-// This is the most important line for Step 1!
-export default heroSection;
+export default Hero;

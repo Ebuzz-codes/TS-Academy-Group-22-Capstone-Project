@@ -1,14 +1,31 @@
-// Part 1: The Function (The "Factory")
-function videoSection() {
-  
-  // Part 2: The Return (What the component actually looks like)
+import "./VideoSection.css";
+import video from "../assets/Planet.mp4";
+
+function Astronomy() {
   return (
-    <footer>
-      <p>© 2024 My Capstone Team. All rights reserved.</p>
-    </footer>
+    <>
+    <div className="bodyWrapper">
+
+{/* The second section */}
+        <section className="section2">
+          <div>
+            <video controls loop autoPlay muted>
+              <source src={video} type="video/mp4" />
+            </video>
+          </div>
+          <div className="section2text">
+            <h2>How Planetary Data Helps Us Understand Space</h2>
+            <p>
+              Planetary science goes beyond images. Comparing{' '}
+              <strong>mass, diameter, gravity,</strong> and{' '}
+              <strong>density,</strong> we gain insight into how planets form,
+              behave and interact within the solar system.
+            </p>
+          </div>
+        </section>
+        </div>
+        </>
   );
 }
 
-// Part 3: The Export (The "Delivery Label")
-// This is the most important line for Step 1!
-export default videoSection;
+export default Astronomy;
