@@ -5,43 +5,31 @@ import Image from "../assets/Image.png";
 function Hero() {
   return (
     <>
-      <header>
-        <nav>
-          <img src={graphics} alt="logo" width="120px" height="50px" />
-        </nav>
-
-        <section>
-          <div className="left">
-            <h1 className="hero_header">
-              Explore Our Solar <br />
-              System Through Data
-            </h1>
-            <p className="hero_paragraph">
-              understanding the planets not just by name, but by measurable
-              <br />
-              facts. from size and mass to gravity and density, this page <br />
-              breaks down the solar system in clear,data and driven way. <br />
-              <br />
-              <br />
-            </p>
-
-            <div className="linkbtn">
-              <a href="#" className="btn1">
-                {" "}
-                Explore the data
-              </a>
-              <a href="#form" id="btn2">
-                {" "}
-                Contact us
-              </a>
-            </div>
-          </div>
-
-          <div className="right">
-            <img src={Image} alt="earth" className="earth" />
-          </div>
-        </section>
+      <header className="head">
+        <img src={graphics} alt="logo" />
       </header>
+
+      <section className="section1">
+        <div className="herotext">
+          <h1>Explore Our Solar System Through Data</h1>
+          <p>
+            Understand the planet not just by name, but by mesurable facts. From
+            size and mass to gravity and density, this page breaks down the
+            solar system in clear, data-driven way.
+          </p>
+          <div className="herobtn">
+            <a className="explorebtn" href="#section5">
+              Explore the data
+            </a>
+            <a className="contactbtn" href="#section4">
+              Contact Us
+            </a>
+          </div>
+        </div>
+        <div className="heroimage">
+          <img src={Image} alt="Hero Image" />
+        </div>
+      </section>
     </>
   );
 }
