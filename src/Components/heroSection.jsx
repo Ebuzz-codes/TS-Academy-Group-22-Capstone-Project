@@ -18,10 +18,10 @@ function Hero() {
             solar system in clear, data-driven way.
           </p>
           <div className="herobtn">
-            <a className="explorebtn" href="#section5">
+            <a className="explorebtn" href="#section3">
               Explore the data
             </a>
-            <a className="contactbtn" href="#section4">
+            <a className="contactbtn" href="#section5">
               Contact Us
             </a>
           </div>
