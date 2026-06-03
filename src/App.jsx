@@ -1,6 +1,6 @@
-// import Header from "./Components/header";
+// Importing necessary components for the application
 import HeroSection from "./Components/HeroSection";
-import VideoSection from "./Components/VideoSection";
+import VideoSection from "./Components/videoSection";
 import ImageSection from "./Components/imageSection";
 import TableSection from "./Components/tableSection";
 import FormSection from "./Components/formSection";
