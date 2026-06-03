@@ -1,4 +1,4 @@
-import Header from "./Components/header";
+
 import HeroSection from "./Components/HeroSection";
 import VideoSection from "./Components/VideoSection";
 import ImageSection from "./Components/imageSection";
