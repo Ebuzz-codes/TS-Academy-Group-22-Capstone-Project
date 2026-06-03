@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "./imageSection.css";
 
 const imageSection = () => {
   const [planets, setPlanets] = useState([]);
