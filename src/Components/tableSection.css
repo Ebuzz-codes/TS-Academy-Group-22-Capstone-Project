@@ -140,6 +140,7 @@ padding is optional but i do this because of lists*/
 
 
 .section4 {
+background-color: #ffffff;
   width: 100%;
   display: flex;
   flex-direction: column;
