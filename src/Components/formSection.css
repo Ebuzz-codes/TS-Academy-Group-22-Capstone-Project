@@ -1,0 +1,158 @@
+#section5 {
+  height: auto;
+  padding: 50px;
+  background-color: #ffffff;
+}
+
+#section5 .section5text p {
+  color: #0F2A44;
+  text-align: start;
+}
+
+#section5 .section5text h2 {
+  color: #164BAF;
+  text-align: start;
+}
+
+/* === SUCCESS / ERROR MESSAGE STYLES & ANIMATION === */
+.status-message {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #e6f7ff;
+  border: 1px solid #91d5ff;
+  color: #0F2A44;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.fade-out {
+  /* Runs our 4 second animation synchronized perfectly with our React timer */
+  animation: fadeOutEffect 4s forwards ease-in-out;
+}
+
+@keyframes fadeOutEffect {
+  0% { opacity: 1; }
+  60% { opacity: 1; }  /* Hold visually for a moment before beginning to fade */
+  100% { opacity: 0; display: none; }
+}
+/* ================================================ */
+
+#section5 .form {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* Updated constraint ensuring container explicitly locks items down leftwards */
+#section5 .formgroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Guards against horizontal centering from external divs */
+  width: 100%; 
+  
+}
+
+/* Label explicit constraints forcing alignment strictly side/left */
+#section5 label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-align: left !important;
+  width: 100%; 
+  color: black;
+}
+
+/* Ensure our inputs span horizontally securely on that layout track */
+#section5 input, #section5 textarea {
+  width: 100%; /* Adapts firmly leftwards without float shrinking gaps */
+  box-sizing: border-box; /* Essential so padding is calculated right along full width */
+  
+}
+
+#section5 input {
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  background-color: #ffffff;
+  color: black;
+}
+
+#section5 textarea {
+  outline: none;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+  background-color: #ffffff;
+  color: black;
+}
+
+#section5 input:focus, 
+#section5 textarea:focus {
+  border-color: #007bff;
+}
+
+#section5 .msg-hint {
+  text-align: left;
+  width: 100%;
+  display: block;
+  margin-top: 4px;
+  color: #666;
+}
+
+#section5 .btn {
+  margin-top: 20px;
+  width: 250px;
+  padding: 12px;
+  border: none;
+  background: #164BAF;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#section5 .btn:disabled {
+  background: #9ab4db;
+  cursor: not-allowed;
+}
+
+#section5 span {
+  color: red;
+}
+
+#section5 .btn:hover:not(:disabled) {
+  background: #0056b3;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 480px) {
+  #section5 {
+    padding: 30px 15px;
+  }
+  
+  #section5 .section5text {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+  }
+   #section5 .section5text h1,
+  #section5 .section5text h2,
+  #section5 .section5text p {
+    text-align: center;
+    width: 100%;
+  }
+  
+  #section5 .form {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  #section5 .btn {
+    margin-top: 15px;
+    width: 100%; /* Fits nicely on small screens instead of defaulting off right axis bounds */
+  }
+}
