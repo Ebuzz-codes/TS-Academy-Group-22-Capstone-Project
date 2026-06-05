@@ -33,7 +33,7 @@ export default function PlanetSection() {
 
   return (
     // Added id="planets" so the Hero section scroll button works
-    <section className="article-section" id="planets">
+    <section className="article-section" id="section3">
       <div className="section-header">
         <h2>Visualizing the Differences Between Planets</h2>
 

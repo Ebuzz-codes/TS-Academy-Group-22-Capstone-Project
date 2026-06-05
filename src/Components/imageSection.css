@@ -11,7 +11,7 @@
 
 .article-section {
   max-width: 1100px;
-  margin: 0 auto;
+  margin: 0 20px;
   padding: 3rem 1.5rem;
   background-color: var(--card-section-color);
 }
@@ -32,10 +32,11 @@
   font-size: 1rem;
   color: var(--paragraph-color);
   line-height: 1.7;
-  max-width: 680px;
+  max-width: 1680px;
   margin-bottom: 0.4rem;
+  /* background-color: red; */
+  text-align: center;
 }
-
 /* ── Card grid ── */
 .card-grid {
   display: grid;
@@ -186,5 +187,17 @@
 
   .article-section {
     padding: 2rem 1rem;
+  }
+}
+@media (max-width: 414px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .article-section {
+    padding: 2rem 1rem;
+  }
+  .pluto {
+    display: none;
   }
 }
