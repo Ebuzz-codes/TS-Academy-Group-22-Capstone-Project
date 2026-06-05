@@ -1,7 +1,7 @@
 // Importing necessary components for the application
 import HeroSection from "./Components/HeroSection";
 import VideoSection from "./Components/videoSection";
-import ImageSection from "./Components/imageSection";
+import PlanetSection from "./Components/imageSection";
 import TableSection from "./Components/tableSection";
 import FormSection from "./Components/formSection";
 import Footer from "./Components/footer";
@@ -11,7 +11,7 @@ function App() {
     <div>
       <HeroSection />
       <VideoSection />
-      <ImageSection />
+      <PlanetSection />
       <TableSection />
       <FormSection />
       <Footer />
