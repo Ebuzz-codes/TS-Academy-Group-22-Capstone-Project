@@ -1,14 +1,26 @@
-// Part 1: The Function (The "Factory")
-function footer() {
-  
-  // Part 2: The Return (What the component actually looks like)
+import './footer.css'; 
+
+const Footer = () => {
   return (
-    <footer>
-      <p>© 2024 My Capstone Team. All rights reserved.</p>
+    <footer className="footer">
+      <div className="listnames">
+        <h3>About</h3>
+        <p>This project was collaboratively designed and developed by:<strong> <a href="https://github.com/Ebuzz-codes">Ebube,</a> <a href="https://github.com/Gabstrong"> Freedom,</a> <a href="https://github.com/dimex002">Fawaz,</a> <a href="https://github.com/kennyfaola-coder">Kehinde,</a> <a href="https://github.com/Lasunkanmi26">Rachel,</a><a href="https://github.com/Denie-art">Emmanuella,</a> <a href="https://github.com/teenah11"> Augustina, </a> <a href="https://github.com/essalami">Simisola,</a></strong> combining our skills and expertise to deliver a functional and user-focused solution. </p>
+      </div>
+      
+      <div className="about">
+        <p className="links"> 
+          ©2026 Design by <a href="https://amakandukwu.com/">Amaka</a> &nbsp;&amp;&nbsp; 
+          <a href="https://www.linkedin.com/in/ifeomaokocha">Ifeoma A.</a> 
+          <a href="https://github.com/Ebuzz-codes/TS-Academy-Group-22-Capstone-Project.git"> TS Academy Phoenix Group 22.</a> All rights reserved
+        </p>
+
+        <p>
+          <a href="https://tsacademyonline.com/">TSAcademy</a>
+        </p>
+      </div>
     </footer>
   );
-}
+};
 
-// Part 3: The Export (The "Delivery Label")
-// This is the most important line for Step 1!
-export default footer;
+export default Footer;
