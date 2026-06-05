@@ -1,0 +1,40 @@
+.footer {
+  background-color: #051540;
+  color: white;
+  padding: 30px;
+  text-align: left;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.footer p {
+  margin-top: 10px;
+}
+
+.footer .listnames {
+  max-width: 500px;
+  width: 100%;
+}
+
+.footer .about {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid white;
+}
+
+.footer .about .links {
+  width: 100%;
+  max-width: 350px;
+}
+/* The new hover effect */
+.footer a:hover {
+  color: skyblue;
+}
