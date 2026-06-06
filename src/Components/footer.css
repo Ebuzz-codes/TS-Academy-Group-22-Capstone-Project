@@ -37,4 +37,5 @@
 /* The new hover effect */
 .footer a:hover {
   color: skyblue;
+  text-decoration: underline;
 }
