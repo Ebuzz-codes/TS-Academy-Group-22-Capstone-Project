@@ -1,4 +1,4 @@
-import "./VideoSection.css";
+import "./videoSection.css";
 import video from "../assets/Planet.mp4";
 
 function Astronomy() {
