@@ -44,7 +44,7 @@ padding is optional but i do this because of lists*/
   min-block-size: 100%;
 }
 
-/* 6. improve line wrapping */
+/* 6. improve line wrapping 
 :where(h1, h2, h3, h4, h5, h6) {
   text-wrap: balance;
 }
