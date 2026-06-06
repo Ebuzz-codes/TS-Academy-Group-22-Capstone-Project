@@ -1,39 +1,57 @@
-
 # Capstone React Project- Group 22
 
 ## Deployment Link:
-## Project Overview
 
-This project was developed as a collaborative capstone assignment by a team of 10 members. The goal of the project was to design and build a modern, responsive, and functional web application using React. The project provided an opportunity for team members to apply their knowledge of React, JavaScript, HTML, CSS, Git, and GitHub while working in a real-world collaborative environment.
 
-## Team Collaboration
+## Project Summary
 
-The project was completed through effective teamwork, communication, and version control practices. Each team member was assigned specific responsibilities to ensure smooth development and timely delivery.
+This capstone project is a React web application that explores our solar system. Built collaboratively by a 6-member team, it accurately recreates a provided UI mockup as a fully functional, component-based web application. It fetches and displays real planet data (name, distance from the sun, and imagery) from an external API, implements responsive web design principles with modified mobile views, features a validated contact form, and incorporates autoplaying looped
+background media.
+
+This project served as an opportunity for the team to demonstrate a firm grasp of HTML, CSS, modern JavaScript (ES6+), JSX syntax, component-driven React architecture, the Fetch API (promises), and robust collaborative Git workflows.
 
 ### Team Structure
 
-| Member    | Role                      | Responsibility                                     |
-| --------- | ------------------------- | -------------------------------------------------- |
-| Member 1  | Team Lead                 | Project coordination, task allocation, code review |
-| Member 2  | Frontend Developer        | Navigation and Header Components                   |
-| Member 3  | Frontend Developer        | Hero Section Development                           |
-| Member 4  | Frontend Developer        | Services/Features Section                          |
-| Member 5  | Frontend Developer        | Cards and Dynamic Content                          |
-| Member 6  | Frontend Developer        | Form Development and Validation                    |
-| Member 7  | Frontend Developer        | Footer and Contact Section                         |
-| Member 8  | UI/UX Developer           | Styling and Responsive Design                      |
-| Member 9  | API Integration Developer | Data Fetching and State Management                 |
-| Member 10 | QA Tester & Documentation | Testing, Bug Fixing, and README Documentation      |
+Our collaborative effort was divided into specific features and components. The table below outlines all team members, their GitHub profiles, and the distinct project segments they handled:
+
+
+| Member                        | Role                      | Responsibility                                            |
+| ----------------------------- | ------------------------- | --------------------------------------------------------- |
+| Okwuenu Ebube                 | Team Lead                 | Project coordination, task allocation, code review, and multimedia implementation       | 
+| Freedom  Gabriel              | Lead Frontend Developer   | Repository management (PR reviews & merging), Header and Hero section development        |
+| Adeshina Fawaz Oladimeji      | API Integration Developer | Data fetching logic and state management for the Planet (API) section                   |
+| Augustina Onyinyechi Onyemaobi| Frontend Developer        |  Interactive form development and input validation logic                           |
+| Oladun Rachel Olasunkanmi     | Frontend Developer        | Component architecture and logic for the Table section                         |
+| Emmanuella Elisha             | UI/UX Developer           |  Visual styling and responsive design for the Table section                         |
+| Fola Kehinde Israel           | UI/UX Developer           |  Styling and layout optimization for the Planet (API) section                         |
+| Salami Simisola Aishat        | Frontend Developer        | Development of the Footer and site navigation components                      |      
+| Giwa Abdulai Alade            | Technical Writer & QA     |  Project documentation (README.md) and quality assurance testing                         |
+
+
+## How to Run the Project Locally
+
+To run this application on your local machine, ensure you have Node.js
+installed, then follow these steps:
+
+1.  Clone the repository:
+    git clone https://github.com/Ebuzz-codes/TS-Academy-Group-22-Capstone-Project.git
+2.  Navigate to the project directory:
+    cd capstone-project
+3.  Install dependencies:
+    npm install
+4.  Start the local development server:
+    npm run dev
+5.  Open your browser and navigate to http://localhost:5173 (or the specific
+    port Vite outputs in your terminal).
 
 ## Technologies Used
 
-* React.js
-* JavaScript (ES6+)
-* HTML5
-* CSS3
-* Git
-* GitHub
-* Vite (Project Setup)
+  - React.js (Component-Based UI)
+  - JavaScript (ES6+)
+  - HTML5 & CSS3
+  - Git & GitHub (Version Control, Issues, Projects Board)
+  - Vite (Rapid local development server setup)
+  - Vercel (Hosting and Live Deployment)
 
 ## Collaboration Workflow
 
@@ -85,8 +103,7 @@ This capstone project helped the team gain practical experience in:
 
 ## Acknowledgements
 
-We would like to thank our instructors, mentors, and fellow team members for their support, guidance, and dedication throughout the development of this capstone project. The successful completion of this project demonstrates the power of collaboration, teamwork, and continuous learning.
+We would like to explicitly thank TS Academy, our development course instructors, cohort mentors, and teammates for driving guidance and accountability thoroughly through our coursework development sprints. Building
+this environment reinforces our learning foundations into viable enterprise realities successfully via collaborative unity.
 
-## Contributors
-
-This project was successfully completed by a team of 10 dedicated developers working collaboratively toward a common goal. Each member contributed their skills, ideas, and effort to ensure the successful delivery of the application.
+Documentation prepared by Group 22 for the final Front-end React Assessment, June 2026.
