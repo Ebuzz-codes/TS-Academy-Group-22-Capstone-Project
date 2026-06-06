@@ -1,4 +1,4 @@
-import "./HeroSection.css";
+import "./heroSection.css";
 import graphics from "../assets/graphics.png";
 import Image from "../assets/Image.png";
 
