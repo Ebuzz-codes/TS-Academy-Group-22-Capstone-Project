@@ -1,11 +1,12 @@
 # Capstone React Project- Group 22
 
-## Deployment Link:
+## Deployment Link: https://ts-academy-group-22-capstone-projec.vercel.app/
+
 
 
 ## Project Summary
 
-This capstone project is a React web application that explores our solar system. Built collaboratively by a 6-member team, it accurately recreates a provided UI mockup as a fully functional, component-based web application. It fetches and displays real planet data (name, distance from the sun, and imagery) from an external API, implements responsive web design principles with modified mobile views, features a validated contact form, and incorporates autoplaying looped
+This capstone project is a React web application that explores our solar system. Built collaboratively by a 10-member team, it accurately recreates a provided UI mockup as a fully functional, component-based web application. It fetches and displays real planet data (name, distance from the sun, and imagery) from an external API, implements responsive web design principles with modified mobile views, features a validated contact form, and incorporates autoplaying looped
 background media.
 
 This project served as an opportunity for the team to demonstrate a firm grasp of HTML, CSS, modern JavaScript (ES6+), JSX syntax, component-driven React architecture, the Fetch API (promises), and robust collaborative Git workflows.
