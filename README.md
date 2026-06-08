@@ -1,7 +1,7 @@
-
 # Capstone React Project- Group 22
 
-## Deployment Link:
+## Deployment Link: https://ts-academy-group-22-capstone-projec.vercel.app/
+
 ## Project Overview
 
 This project was developed as a collaborative capstone assignment by a team of 10 members. The goal of the project was to design and build a modern, responsive, and functional web application using React. The project provided an opportunity for team members to apply their knowledge of React, JavaScript, HTML, CSS, Git, and GitHub while working in a real-world collaborative environment.
@@ -27,13 +27,13 @@ The project was completed through effective teamwork, communication, and version
 
 ## Technologies Used
 
-* React.js
-* JavaScript (ES6+)
-* HTML5
-* CSS3
-* Git
-* GitHub
-* Vite (Project Setup)
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Git
+- GitHub
+- Vite (Project Setup)
 
 ## Collaboration Workflow
 
@@ -50,24 +50,24 @@ The team followed a GitHub-based collaboration workflow:
 
 ## Key Features
 
-* Responsive Design
-* Reusable React Components
-* Dynamic Data Rendering
-* Form Handling and Validation
-* API Integration
-* Modern User Interface
-* Mobile-Friendly Layout
-* Clean and Maintainable Code Structure
+- Responsive Design
+- Reusable React Components
+- Dynamic Data Rendering
+- Form Handling and Validation
+- API Integration
+- Modern User Interface
+- Mobile-Friendly Layout
+- Clean and Maintainable Code Structure
 
 ## Challenges Faced
 
 During development, the team encountered several challenges, including:
 
-* Merge conflicts during code integration.
-* Maintaining consistent coding standards.
-* Component communication and state management.
-* Responsive design adjustments across different screen sizes.
-* Coordinating development schedules among team members.
+- Merge conflicts during code integration.
+- Maintaining consistent coding standards.
+- Component communication and state management.
+- Responsive design adjustments across different screen sizes.
+- Coordinating development schedules among team members.
 
 These challenges were resolved through regular meetings, effective communication, code reviews, and proper use of Git and GitHub collaboration tools.
 
@@ -75,13 +75,13 @@ These challenges were resolved through regular meetings, effective communication
 
 This capstone project helped the team gain practical experience in:
 
-* React component architecture
-* Team collaboration in software development
-* Version control with Git and GitHub
-* Pull request workflows
-* Problem-solving and debugging
-* Agile development practices
-* Effective communication in technical teams
+- React component architecture
+- Team collaboration in software development
+- Version control with Git and GitHub
+- Pull request workflows
+- Problem-solving and debugging
+- Agile development practices
+- Effective communication in technical teams
 
 ## Acknowledgements
 
