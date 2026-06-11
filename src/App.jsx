@@ -1,5 +1,5 @@
 // Importing necessary components for the application
-import HeroSection from "./Components/heroSection";
+import HeroSection from "/src/Components/heroSection";
 import VideoSection from "./Components/videoSection";
 import PlanetSection from "./Components/imageSection";
 import TableSection from "./Components/tableSection";
